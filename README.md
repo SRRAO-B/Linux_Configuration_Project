@@ -1,4 +1,4 @@
-# Configuring an Amazon Lightsail Ubuntu Instance to run a Flask Application with Database as PostgreSQL
+# Configuring Amazon Lightsail Ubuntu Instance to run a Flask Application with Database as PostgreSQL
 
 The project involves taking a baseline installation of a Linux server and prepare it to host web applications. This includes securing it against a number of attack vectors, installing and configuring a database server and deploying an existing web application. The objective is to configure a new bare-bones Linux server to securely host web applications.
 
