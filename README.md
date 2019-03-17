@@ -143,7 +143,7 @@ Install git  and clone the remote repository within Amazon Lightsail Ubuntu inst
 
  ```$ sudo apt-get install git```
 
-## Deploy the Item Catalog
+## Deploy the Item Catalog Application
 ### Step 13
 
 Enable mod_wsgi for apache2 Server
