@@ -99,7 +99,7 @@ Check the SSH connection using LightsailDefaultKey.pem
 ```
 ssh -i LightsailDefaultKey.pem grader@52.23.190.192 -p 2200
 ```
-Disable root login and force authentication using the key pair, so in the file '/etc/ssh/sshd_config' I changed "PermitRootLogin without-password" to "PermitRootLogin no" and uncommented the line that reads "PasswordAuthentication no".  I ran ```$ sudo service ssh restart```
+Do a SSH Resrart  ```$ sudo service ssh restart```
 
 ## Prepare to Deploy Your Project
 ### Step 9
