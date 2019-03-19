@@ -99,7 +99,11 @@ Check the SSH connection using LightsailDefaultKey.pem
 ```
 ssh -i LightsailDefaultKey.pem grader@52.23.190.192 -p 2200
 ```
-Do a SSH Resrart  ```$ sudo service ssh restart```
+Disable root login by Changing the following line in the file /etc/ssh/sshd_config:
+From PermitRootLogin without-password to PermitRootLogin no.
+Uncomment line PasswordAuthentication no
+
+Do a SSH Restart  ```$ sudo service ssh restart```
 
 ## Prepare to Deploy Your Project
 ### Step 9
